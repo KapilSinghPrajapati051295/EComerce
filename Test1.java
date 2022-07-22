@@ -13,9 +13,12 @@ public class Test1 {
 <<<<<<< HEAD
 		.forEach(i -> System.out.print(i+" "));//terminal op.
 
+
 		System.out.println("Hello First Commit By Kunal in Test1");
 		
-		#System.out.println("Hello IACSD");
+		#System.out.println("Hello IACSD"); 
+                                  System.out.println("Gautam");
+
 		
 =======
 		.forEach(i -> System.out.print(i+" "));
