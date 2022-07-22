@@ -14,6 +14,10 @@ public class Test4 {
 		IntStream.rangeClosed(2, 50) //src : IntStream 2---50
 		.filter(i -> i % 2 == 0) //IntStream 2---50 : even elems --intermediate op
 		.forEach(i -> System.out.println(i)); //terminal op.
+		System.out.println("Even nos in 2-50");
+		IntStream.rangeClosed(2, 50) //src : IntStream 2---50
+		.filter(i -> i % 2 == 0) //IntStream 2---50 : even elems --intermediate op
+		.forEach(i -> System.out.println(i));
 
 	}
 
