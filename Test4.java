@@ -19,6 +19,8 @@ public class Test4 {
 		.filter(i -> i % 2 == 0) //IntStream 2---50 : even elems --intermediate op
 		.forEach(i -> System.out.println(i));
 
+		#System.out.println("Hello IACSD");
+
 	}
 
 }

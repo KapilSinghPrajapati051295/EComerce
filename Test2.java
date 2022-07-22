@@ -17,8 +17,12 @@ public class Test2 {
 		ints.parallelStream()  //Stream<Integer> : access parallel
 		.forEach(i -> System.out.println(i));
 
+<<<<<<< HEAD
 		
 		System.out.println("@%@%@%@%@%@%@%@%%@%@%@%@%@%@%@%@%@%@%@");
+=======
+		#System.out.println("Hello IACSD");
+>>>>>>> 45dd2cf43cc1a3d0384d257806554b4e71805343
 		
 		
 
