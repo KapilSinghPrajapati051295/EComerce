@@ -2,6 +2,7 @@ package java8_strms;
 
 import java.util.Arrays;
 
+//adding comment
 public class Test1 {
 
 	public static void main(String[] args) {
