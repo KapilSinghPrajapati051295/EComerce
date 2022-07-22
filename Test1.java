@@ -6,6 +6,13 @@ import java.util.Arrays;
 public class Test1 {
 
 	public static void main(String[] args) {
+
+		public void tempMethod(){
+			// add some SOP here
+
+			return;
+		}
+
 		int[] data= {1,23,24,10,11,56,78,-80,-10};
 		//Can you add this data in the IntStream n display the same using higher order func/method : forEach
 		//API : java.util.Arrays --- public static IntStream stream(int[] data)
