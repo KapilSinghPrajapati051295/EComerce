@@ -11,6 +11,8 @@ import static utils.ShopUtils.populateProductList;
 public class Test6 {
 
 	public static void main(String[] args) {
+		// comment added  by mahesh
+		//another comment added
 		
 		//display the products from specified category having price < specified price
 		try(Scanner sc=new Scanner(System.in))
@@ -27,6 +29,8 @@ public class Test6 {
 			.filter(p -> p.getProductCategory()==cat) //Stream<Product> : filtered by category
 			.filter(p -> p.getPrice()< price) //Stream<Product> : filtered by price
 			.forEach(p -> System.out.println(p));
+
+			
 			
 			System.out.println("Testing git ");
 		}
