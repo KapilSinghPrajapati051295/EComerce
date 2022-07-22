@@ -16,6 +16,8 @@ public class Test2 {
 		System.out.println("List elems using parallel stream");
 		ints.parallelStream()  //Stream<Integer> : access parallel
 		.forEach(i -> System.out.println(i));
+
+		#System.out.println("Hello IACSD");
 		
 		
 
