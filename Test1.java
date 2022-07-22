@@ -10,6 +10,8 @@ public class Test1 {
 		//API : java.util.Arrays --- public static IntStream stream(int[] data)
 		Arrays.stream(data) //IntStream : src 
 		.forEach(i -> System.out.print(i+" "));//terminal op.
+
+		System.out.println("Hello First Commit By Kunal in Test1");
 		
 
 	}
