@@ -28,6 +28,7 @@ public class Test6 {
 			.filter(p -> p.getPrice()< price) //Stream<Product> : filtered by price
 			.forEach(p -> System.out.println(p));
 			
+			System.out.println("Testing git ");
 		}
 
 	}
