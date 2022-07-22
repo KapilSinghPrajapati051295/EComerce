@@ -12,7 +12,7 @@ public class Test2 {
 		System.out.println("List elems using seq stream");
 		ints.stream() //Stream<Integer>
 		.forEach(i -> System.out.println(i));
-		//Can u process the elems in parallel manner ? 
+		//Can u process the elems in parallel manne 
 		System.out.println("List elems using parallel stream");
 		ints.parallelStream()  //Stream<Integer> : access parallel
 		.forEach(i -> System.out.println(i));

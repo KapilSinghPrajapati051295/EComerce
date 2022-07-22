@@ -9,8 +9,8 @@ public class Test1 {
 		//Can you add this data in the IntStream n display the same using higher order func/method : forEach
 		//API : java.util.Arrays --- public static IntStream stream(int[] data)
 		Arrays.stream(data) //IntStream : src 
-		.forEach(i -> System.out.print(i+" "));//terminal op.
-		
+		.forEach(i -> System.out.print(i+" "));
+		 System.out.println("bla bla ...");
 
 	}
 
