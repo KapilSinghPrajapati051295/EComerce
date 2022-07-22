@@ -3,7 +3,7 @@ package java8_strms;
 import java.util.Arrays;
 
 public class Test1 {
-
+private int a;//delete this change .......
 	public static void main(String[] args) {
 		int[] data= {1,23,24,10,11,56,78,-80,-10};
 		//Can you add this data in the IntStream n display the same using higher order func/method : forEach
