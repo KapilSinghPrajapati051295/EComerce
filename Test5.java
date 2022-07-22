@@ -18,6 +18,7 @@ public class Test5 {
 		in.forEach(i -> System.out.println(i));// IllegalStateExc : you can't operate on the stream which is closed
 												// already !!!!
 
+		System.out.println("Changes by Shubham Jaiswal");
 	}
 
 }
