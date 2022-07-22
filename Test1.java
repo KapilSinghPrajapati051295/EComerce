@@ -10,7 +10,7 @@ public class Test1 {
 		//API : java.util.Arrays --- public static IntStream stream(int[] data)
 		Arrays.stream(data) //IntStream : src 
 		.forEach(i -> System.out.print(i+" "));
-		 System.out.println("bla bla ...");
+		 System.out.println("bla bla");
 
 	}
 
