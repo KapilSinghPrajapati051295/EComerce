@@ -25,7 +25,7 @@ public class Test2 {
 		#System.out.println("Hello IACSD");
 >>>>>>> 45dd2cf43cc1a3d0384d257806554b4e71805343
 		
-		
+		System.out.println("Hi everyone");
 
 	}
 
